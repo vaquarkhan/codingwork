@@ -1,0 +1,12 @@
+test\java\modules\SignInAction.class
+test\java\pageobjects\AutomationHomePage.class
+test\java\helpers\DataHelper.class
+test\java\step_definitions\BlankStepDefs.class
+test\java\modules\SignoutAction.class
+test\java\helpers\Log.class
+test\java\step_definitions\RunCukesTest.class
+test\java\step_definitions\ShoppingCart.class
+test\java\pageobjects\BaseClass.class
+test\java\pageobjects\LoginPage.class
+test\java\pageobjects\ContactusPage.class
+test\java\step_definitions\Hooks.class

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery Show Hide Using Checkboxes</title>
+<style type="text/css">
+    .box{
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+        border: 1px solid #000;
+    }
+    .red{ background: #ff0000; }
+    .green{ background: #00ff00; }
+    .blue{ background: #0000ff; }
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript">
+//
+$(document).ready(function(){
+
+//url=url?msg=F or S or C
+//F=fail
+//S=sucss
+//C=cancel
+
+var getUrlParameter = function getUrlParameter() {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === 'msg') {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+}
+//
+//alert(getUrlParameter());
+//
+    $(window).load(function(){
+        if(getUrlParameter()==='F'){
+            $(".red").toggle();
+        }
+        if(getUrlParameter()=='S'){
+            $(".green").toggle();
+        }
+        if(getUrlParameter()=='C'){
+            $(".blue").toggle();
+        }
+    });
+    
+});
+//
+       
+
+
+</script>
+</head>
+<body >
+    <div class="red box" id="redbox">Your Transaction is  <strong>Failed</strong> Please try again.</div>
+    <div class="green box" id=greenbox>Your Transaction is <strong>Successful</strong>. </div>
+    <div class="blue box" id="bluebox">Your Transaction is <strong>Canceled</strong> Please try again.</div>
+</body>
+</html>

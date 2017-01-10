@@ -1,0 +1,8 @@
+com\finleash\batch\springdatabatch\persist\MutualFundNavRepository.class
+com\finleash\batch\springdatabatch\util\FileUtil.class
+com\finleash\batch\springdatabatch\timer\MutualFundDailyJobServlet.class
+com\finleash\batch\springdatabatch\runner\RunAPISchedulerTask.class
+com\finleash\batch\springdatabatch\config\HibernateConfiguration.class
+com\finleash\batch\springdatabatch\persist\MutualFundNav.class
+com\finleash\batch\springdatabatch\timer\MutualFundDailyJobServlet$ReportGenerator.class
+com\finleash\batch\springdatabatch\runner\Runner.class
