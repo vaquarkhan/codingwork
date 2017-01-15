@@ -13,9 +13,6 @@ import javax.inject.Inject;
 
 import com.test.springframework.batch.sample.Person;
 
-/**
- * Created by jbeneito on 7/08/14.
- */
 public class FileItemReader implements ItemReader {
     @Inject
     @BatchProperty
