@@ -10,10 +10,6 @@ import javax.batch.runtime.Metric;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-
-/**
- * Created by jbeneito on 6/08/14.
- */
 public class MainHelper {
 
     public static void reportResults(JobExecution jobExecution) {
