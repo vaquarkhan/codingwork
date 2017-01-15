@@ -12,9 +12,6 @@ import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.Statement;
 
-/**
- * @author mminella
- */
 public class DatabaseIntializer extends AbstractJobListener {
 
     @Autowired
