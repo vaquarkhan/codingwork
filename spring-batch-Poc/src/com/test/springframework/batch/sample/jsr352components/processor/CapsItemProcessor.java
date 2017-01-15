@@ -5,9 +5,6 @@ import javax.batch.api.chunk.ItemProcessor;
 import com.test.springframework.batch.sample.Person;
 import com.test.springframework.batch.sample.PersonItemProcessor;
 
-/**
- * Created by jbeneito on 7/08/14.
- */
 public class CapsItemProcessor implements ItemProcessor {
 
     @Override
