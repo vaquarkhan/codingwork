@@ -3,8 +3,8 @@ package org.viquar.khan.messenger.database;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.koushik.javabrains.messenger.model.Message;
-import org.koushik.javabrains.messenger.model.Profile;
+import org.viquar.khan.messenger.model.Message;
+import org.viquar.khan.messenger.model.Profile;
 
 public class DatabaseClass {
 
