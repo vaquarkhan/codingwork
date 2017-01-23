@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.koushik.javabrains.messenger.model.Comment;
-import org.koushik.javabrains.messenger.service.CommentService;
+import org.viquar.khan.messenger.model.Comment;
+import org.viquar.khan.messenger.service.CommentService;
 
 @Path("/")
 @Produces(MediaType.APPLICATION_JSON)
