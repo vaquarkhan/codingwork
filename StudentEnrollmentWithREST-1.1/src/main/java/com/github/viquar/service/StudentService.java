@@ -1,6 +1,6 @@
 package com.github.viquar.service;
 
-import com.github.elizabetht.model.Student;
+import com.github.viquar.model.Student;
 
 public interface StudentService {
 	Student save(Student student);
