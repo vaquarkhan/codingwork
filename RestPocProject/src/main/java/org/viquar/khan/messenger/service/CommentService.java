@@ -9,10 +9,10 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import org.koushik.javabrains.messenger.database.DatabaseClass;
-import org.koushik.javabrains.messenger.model.Comment;
-import org.koushik.javabrains.messenger.model.ErrorMessage;
-import org.koushik.javabrains.messenger.model.Message;
+import org.viquar.khan.messenger.database.DatabaseClass;
+import org.viquar.khan.messenger.model.Comment;
+import org.viquar.khan.messenger.model.ErrorMessage;
+import org.viquar.khan.messenger.model.Message;
 
 public class CommentService {
 	
@@ -24,7 +24,7 @@ public class CommentService {
 	}
 	
 	public Comment getComment(long messageId, long commentId) {
-		ErrorMessage errorMessage = new ErrorMessage("Not found", 404, "http://javabrains.koushik.org");
+		ErrorMessage errorMessage = new ErrorMessage("Not found", 404, "http://viquar.khan.org");
 		Response response = Response.status(Status.NOT_FOUND)
 				.entity(errorMessage)
 				.build();
