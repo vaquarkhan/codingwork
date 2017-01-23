@@ -18,8 +18,8 @@ import org.glassfish.jersey.server.mvc.Viewable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.github.elizabetht.model.Student;
-import com.github.elizabetht.service.StudentService;
+import com.github.viquar.model.Student;
+import com.github.viquar.service.StudentService;
 
 @Component
 @Path("studentResource")
