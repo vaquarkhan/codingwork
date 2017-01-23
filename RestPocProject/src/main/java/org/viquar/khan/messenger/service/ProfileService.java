@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import org.koushik.javabrains.messenger.database.DatabaseClass;
-import org.koushik.javabrains.messenger.model.Profile;
+import org.viquar.khan.messenger.database.DatabaseClass;
+import org.viquar.khan.messenger.model.Profile;
 
 public class ProfileService {
 
