@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.koushik.javabrains.messenger.model.Profile;
-import org.koushik.javabrains.messenger.service.ProfileService;
+import org.viquar.khan.messenger.model.Profile;
+import org.viquar.khan.messenger.service.ProfileService;
 
 @Path("/profiles")
 @Consumes(MediaType.APPLICATION_JSON)
