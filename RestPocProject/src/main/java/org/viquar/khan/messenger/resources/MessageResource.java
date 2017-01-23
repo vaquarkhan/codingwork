@@ -17,9 +17,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import org.koushik.javabrains.messenger.model.Message;
-import org.koushik.javabrains.messenger.resources.beans.MessageFilterBean;
-import org.koushik.javabrains.messenger.service.MessageService;
+import org.viquar.khan.messenger.model.Message;
+import org.viquar.khan.messenger.resources.beans.MessageFilterBean;
+import org.viquar.khan.messenger.service.MessageService;
 
 @Path("/messages")
 @Consumes(MediaType.APPLICATION_JSON)
