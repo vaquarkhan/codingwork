@@ -5,17 +5,17 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
-import org.koushik.javabrains.messenger.database.DatabaseClass;
-import org.koushik.javabrains.messenger.exception.DataNotFoundException;
-import org.koushik.javabrains.messenger.model.Message;
+import org.viquar.khan.messenger.database.DatabaseClass;
+import org.viquar.khan.messenger.exception.DataNotFoundException;
+import org.viquar.khan.messenger.model.Message;
 
 public class MessageService {
 
 	private Map<Long, Message> messages = DatabaseClass.getMessages();
 	
 	public MessageService() {
-		messages.put(1L, new Message(1, "Hello World", "koushik"));
-		messages.put(2L, new Message(2, "Hello Jersey", "koushik"));
+		messages.put(1L, new Message(1, "Hello World", "vaquar"));
+		messages.put(2L, new Message(2, "Hello Jersey", "khan"));
 	}
 	
 	public List<Message> getAllMessages() {
